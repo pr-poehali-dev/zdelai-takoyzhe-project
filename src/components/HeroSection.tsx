@@ -93,47 +93,30 @@ const HeroSection = () => {
             </div>
 
             {/* Social icons */}
-            <div className="absolute top-6 right-6 flex gap-3">
-              <a
-                href="#"
-                className="w-10 h-10 bg-white/90 rounded-full p-2 hover:bg-white transition-colors shadow-lg"
-              >
+            <div className="absolute top-4 right-4 flex space-x-3">
+              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow cursor-pointer">
                 <img
-                  src="https://cdn.poehali.dev/files/31d1603d-eea1-46a4-b419-fc642c680c4f.png"
-                  alt="Instagram"
-                  className="w-full h-full object-contain"
+                  src="https://cdn.poehali.dev/files/591f3693-16e0-48cd-9e76-d8e87ca294bd.png"
+                  alt="Search"
+                  className="w-6 h-6"
                 />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-white/90 rounded-full p-2 hover:bg-white transition-colors shadow-lg"
-              >
-                <img
-                  src="https://cdn.poehali.dev/files/cdb5538d-bbac-408d-8d2b-c15ec23ce977.png"
-                  alt="Twitter"
-                  className="w-full h-full object-contain"
+              </div>
+              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow cursor-pointer">
+                <Icon name="Heart" size={20} className="text-red-500" />
+              </div>
+              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow cursor-pointer">
+                <Icon name="Share2" size={20} className="text-gray-600" />
+              </div>
+              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow cursor-pointer">
+                <Icon name="Bookmark" size={20} className="text-blue-500" />
+              </div>
+              <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow cursor-pointer">
+                <Icon
+                  name="MessageCircle"
+                  size={20}
+                  className="text-green-500"
                 />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-white/90 rounded-full p-2 hover:bg-white transition-colors shadow-lg"
-              >
-                <img
-                  src="https://cdn.poehali.dev/files/45e43475-5460-46ff-8011-d3d862ff0373.png"
-                  alt="VK"
-                  className="w-full h-full object-contain"
-                />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 bg-white/90 rounded-full p-2 hover:bg-white transition-colors shadow-lg"
-              >
-                <img
-                  src="https://cdn.poehali.dev/files/eabfa4e3-309e-40db-92e5-81999dafad78.png"
-                  alt="Location"
-                  className="w-full h-full object-contain"
-                />
-              </a>
+              </div>
             </div>
           </div>
         </div>
