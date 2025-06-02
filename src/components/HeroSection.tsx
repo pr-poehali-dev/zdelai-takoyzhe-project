@@ -91,6 +91,50 @@ const HeroSection = () => {
                 #naturephotography
               </span>
             </div>
+
+            {/* Social icons */}
+            <div className="absolute top-6 right-6 flex gap-3">
+              <a
+                href="#"
+                className="w-10 h-10 bg-white/90 rounded-full p-2 hover:bg-white transition-colors shadow-lg"
+              >
+                <img
+                  src="https://cdn.poehali.dev/files/31d1603d-eea1-46a4-b419-fc642c680c4f.png"
+                  alt="Instagram"
+                  className="w-full h-full object-contain"
+                />
+              </a>
+              <a
+                href="#"
+                className="w-10 h-10 bg-white/90 rounded-full p-2 hover:bg-white transition-colors shadow-lg"
+              >
+                <img
+                  src="https://cdn.poehali.dev/files/cdb5538d-bbac-408d-8d2b-c15ec23ce977.png"
+                  alt="Twitter"
+                  className="w-full h-full object-contain"
+                />
+              </a>
+              <a
+                href="#"
+                className="w-10 h-10 bg-white/90 rounded-full p-2 hover:bg-white transition-colors shadow-lg"
+              >
+                <img
+                  src="https://cdn.poehali.dev/files/45e43475-5460-46ff-8011-d3d862ff0373.png"
+                  alt="VK"
+                  className="w-full h-full object-contain"
+                />
+              </a>
+              <a
+                href="#"
+                className="w-10 h-10 bg-white/90 rounded-full p-2 hover:bg-white transition-colors shadow-lg"
+              >
+                <img
+                  src="https://cdn.poehali.dev/files/eabfa4e3-309e-40db-92e5-81999dafad78.png"
+                  alt="Location"
+                  className="w-full h-full object-contain"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
