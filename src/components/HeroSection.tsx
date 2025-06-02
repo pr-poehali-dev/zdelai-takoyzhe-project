@@ -1,3 +1,5 @@
+import Icon from "@/components/ui/icon";
+
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen px-8 overflow-hidden">
